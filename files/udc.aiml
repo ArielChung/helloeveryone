@@ -1,7 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
+   <category>
+    <pattern>I like to *</pattern>
+    <template>I like to <star/>,too!</template>
+  </category>
+   <category>
+    <pattern>Wow...that's amazing!</pattern>
+    <template>How about doing that together?</template>
+  </category>
+   <category>
+    <pattern>ok</pattern>
+    <template>Let's go!</template>
+  </category>
+   <category>
+    <pattern>no</pattern>
+    <template>Well...I will find somebody else.</template>
+  </category>
+   <category>
+    <pattern>Bye~</pattern>
+    <template>
+        <random>
+            <li>Nice to meet you.</li>
+            <li>See you~</li>
+        </random>
+    </template>
+  </category>
+  
 </aiml>
+
+
